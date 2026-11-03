@@ -12,7 +12,7 @@ docker compose up -d # starts a local libretranslate api on port 5000
 
 ### Install
 
-With Golang: `go install github.com/ichbestimmtnicht/factorio-mod-translation-helper`
+With Golang: `go install github.com/ichbestimmtnicht/factorio-mod-translation-helper@latest`
 Without Golang: Download from the releases and put in your `bin/` equivalent.
 
 ### Execution

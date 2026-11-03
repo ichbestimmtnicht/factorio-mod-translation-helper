@@ -16,10 +16,6 @@ jobs:
         id: build
         uses: chihqian/gobuild-action@v0.2.0
         with:
-          # bin_name: fmth
-          main_go: cmd/main.go
           add_files: |
             README.md
             LICENSE
-      # - name: Test
-      #   run: go test
